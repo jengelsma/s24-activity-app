@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import ActivityScreen from './screens/ActivityScreen';
 import DashboardScreen from './screens/DashboardScreen';
 import { StatusBar } from 'expo-status-bar';
+import 'react-native-gesture-handler';
 
 export default function App() {
   return (
